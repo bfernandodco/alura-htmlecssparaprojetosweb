@@ -17,7 +17,7 @@ body {
 }
 
 .apresentacao {
-    margin: 10%;
+    margin: 10% 15%;
     display: flex; /** elementos alinhados **/
     align-items: center; /** elementos ao centro **/
     justify-content: space-between; /** espaçamento dos elementos filhos**/
@@ -25,6 +25,9 @@ body {
 
 .apresentacao__conteudo {
     width: 615px;
+    display: flex;
+    flex-direction: column; /*alinhamento do flexbox em colunas*/
+    gap: 40px; /*espacamento entre elementos filhos*/
 }
 
 .apresentacao__conteudo__titulo {
