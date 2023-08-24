@@ -4,11 +4,17 @@
 }
 
 body {
-    height: 100vh;
-    background-color: #ffffff; /**altera a cor de fundo de todo o <body>**/
-    color: #5E08FF; /**altera a cor do texto de todo o <body>**/
+    height: 100vh; /**vh = viewport height**/
+    box-sizing: border-box; /** o border-box garante a proporção dos elementos**/
+    background-color: #000000; /**altera a cor de fundo de todo o <body>**/
+    color: #ffffff; /**altera a cor do texto de todo o <body>**/
 }
 
 .titulo-destaque { /**Utilizamos o . para indicar que se trata de uma classe **/
     color: #2b076e;
+}
+
+.apresentacao {
+    display: flex; /** elementos alinhados **/
+    align-items: center; /** elementos ao centro **/
 }
