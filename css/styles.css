@@ -1,4 +1,14 @@
+* { /**reset padrão dos navegadores de forma simples **/
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: #000000; /**altera a cor de fundo de todo o <body>**/
-    color: #f6f6f6; /**altera a cor do texto de todo o <body>**/
+    height: 100vh;
+    background-color: #ffffff; /**altera a cor de fundo de todo o <body>**/
+    color: #5E08FF; /**altera a cor do texto de todo o <body>**/
+}
+
+.titulo-destaque { /**Utilizamos o . para indicar que se trata de uma classe **/
+    color: #2b076e;
 }
